@@ -46,7 +46,7 @@ function multiplicacion(){
 
 function division(){
     resultado=Number(dato1.value) / Number(dato2.value);
-    result.innerHTML=resultado; 
+    result.innerHTML=resultado.toFixed;  // el tofixed es para redondear a un decimal 
     dato1.value="";
     dato2.value="";
     dato1.focus();
