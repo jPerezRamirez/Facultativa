@@ -30,3 +30,10 @@ nav ul a:hover{
   background: #80deea;
   color: black;
 }
+.parallax-container{
+ height: 250px;
+}
+
+.page-footer{
+  background: red accent-3;
+}
